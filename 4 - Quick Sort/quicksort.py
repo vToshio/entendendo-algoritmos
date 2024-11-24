@@ -21,8 +21,7 @@ def quicksort(array: List[int], reverse: bool=False) -> None:
             return quicksort(menores) + iguais + quicksort(maiores)
         
 
-lista = [3, 6, 8, 10, 1, 2, 1]  
-#lista = [2, 4, 1, 16, 9, 27, 12]
+lista = [2, 4, 1, 16, 9, 27, 12]
 print(f"Lista Original: {lista}")
 
 crescente = quicksort(lista)
